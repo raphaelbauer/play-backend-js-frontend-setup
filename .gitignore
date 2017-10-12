@@ -1,0 +1,7 @@
+.DS_STORE
+.idea
+.vscode/ 
+
+frontend-preact/node_modules
+frontend-preact/build
+

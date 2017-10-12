@@ -1,0 +1,8 @@
+
+GET     /api/persons    controllers.ApiController.persons
+
+GET     /health         controllers.HealthController.health
+
+# https://www.playframework.com/documentation/2.6.x/ScalaRouting#Parameters-with-fixed-values
+GET     /               controllers.StaticResourcesController.serve(file="index.html")
+GET     /*file          controllers.StaticResourcesController.serve(file)
